@@ -4,6 +4,7 @@ def plword(word):
                 return word + 'way'
         return word[1:] + word[0] + 'ay'
 
+
 def plfile(filename):
         return " ".join(
                 plword(one_word)
