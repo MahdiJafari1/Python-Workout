@@ -62,14 +62,6 @@ class Zoo:
             if one_animal.color == color
         ]
 
-    def animals_by_color(self, color):
-        return [
-            one_animal
-            for one_cage in self.cages
-            for one_animal in one_cage
-            if one_animal.color == color
-        ]
-
     def animals_by_legs(self, number_of_legs):
         return [
             one_animal
